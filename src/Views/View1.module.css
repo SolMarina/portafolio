@@ -1,0 +1,57 @@
+.body{
+background-color:#FCF6E4;
+
+}
+.boxprincipal{
+display: flex;
+flex-flow: column;
+width: 100%;
+height: 40%;
+background-color:#FCF6E4;
+padding-left: 10%;
+}
+
+.aboutme{
+    display: flex;
+    flex-flow:row-reverse;
+
+}
+
+.boxImgme{
+padding-top: 30px;
+width: 50%;   
+}
+
+.Imgme{
+    width: 50%;
+    height: 90%;
+    border-radius: 5%;
+}
+.textimage{
+    width: 50%; 
+    padding-left:20px ;
+
+}
+
+ .textimage h3 {
+color: #448E9E;
+
+}
+ .textimage h5 {
+    color:#448E9E ;
+    
+    }
+    .skills{
+display:flex;
+align-items: center;
+flex-flow: row;
+width: 25%; 
+
+
+    }
+    .boxprincipal h4{
+        color:#448E9E
+
+
+    }
+    
