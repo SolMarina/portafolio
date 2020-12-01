@@ -10,53 +10,151 @@ const View2 = () => {
     return (
         <div>
             <h3>Mis Proyectos </h3>
-            <div class="ia-container">
-                <figure>
-                    <img src={lol} alt="image01" />
-                    <input type="radio" name="radio-set" checked="checked"/>
-                    <figcaption><span>True Colors</span></figcaption>
-                    
-                    <figure>
-                        <img src={burguer} alt="image02" />
-                        <input type="radio" name="radio-set" />
-                        <figcaption><span>Honest Light</span></figcaption>
-                        
-                        <figure>
-                            <img src={barky} alt="image03" />
-                            <input type="radio" name="radio-set" />
-                            <figcaption><span>Silent Serenity</span></figcaption>
-                            
-                            <figure>
-                                <img src={comida} alt="image04" />
-                                <input type="radio" name="radio-set" />
-                                <figcaption><span>Warm Welcome</span></figcaption>
-                                
-                                <figure>
-                                    <img src={mdlink} alt="image05" />
-                                    <input type="radio" name="radio-set" />
-                                    <figcaption><span>Sensible Magic</span></figcaption>
-                                    
-                                    <figure>
-                                        <img src={credit} alt="image06" />
-                                        <input type="radio" name="radio-set" />
-                                        <figcaption><span>Lovely Midnight</span></figcaption>
-                            
-                            
-                                    </figure>	
-                                        
-                                </figure>	
-                                    
-                            </figure>
-                                
-                        </figure>
-                        
-                    </figure>
-                    
-                </figure>
-                
+
+            <div className={styles.boxprincipal1}>
+                <div className={styles.box1}>
+                    <div class="card small">
+
+                        <div class="row">
+                            <div class="col s12 m7">
+                                <div class="card #0097a7 cyan darken-2" >
+                                    <div class="card-image">
+                                        <img className={styles.lol} src={lol} alt="">
+                                        </img>
+                                        <span class="card-title"></span>
+
+                                        <div class="card-content">
+                                            <p class="cyan-text text-darken-3"> DataLovers: Javascript /html5/ API / CSS3/ Figma / Github/ Hot Jar / Balsamiq Mockups</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="https://algrismarquez.github.io/SCL014-data-lovers/index.html">Data Lovers</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div className={styles.box2}>
+                    <div class="card small">
+                        <div class="row">
+                            <div class="col s12 m7">
+                                <div class="card #0097a7 cyan darken-2">
+                                    <div class="card-image">
+                                        <img className={styles.burguer} src={burguer} alt=""></img>
+                                        <span class="card-title"></span>
+                                        <div class="card-content">
+                                            <p>Burguer Queen: Single-page Application (SPA) React / Firebase / CSS3 / Figma / Github.</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="https://burgersong.on.fleek.co/">Burguer Queen</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.box3}>
+                    <div class="card small">
+                        <div class="row">
+                            <div class="col s12 m7">
+                                <div class="card #0097a7 cyan darken-2">
+                                    <div class="card-image">
+                                        <img className={styles.barky} src={barky} alt=""></img>
+                                        <span class="card-title"></span>
+
+                                        <div class="card-content">
+                                            <p>Red Social: Single-page Application (SPA) Javascript /Firebase /CSS3/ Figma /Github.</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="#">Red Social</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
+            <div className={styles.boxprincipal1}>
+                <div className={styles.box1}>
+                    <div class="card small">
+                        <div class="row">
+                            <div class="col s12 m7">
+                                <div class="card #0097a7 cyan darken-2" >
+                                    <div class="card-image">
+                                        <img className={styles.comi} src={comida} alt="">
+                                        </img>
+                                        <span class="card-title"></span>
 
+                                        <div class="card-content">
+                                            <p class="cyan-text text-darken-3"> Comida para todos:  Javascript / React / CSS3/ Figma / Github/Boostrap</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="https://comidaparatodos.on.fleek.co/">Comida Para Todos</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div className={styles.box2}>
+                    <div class="card small">
+                        <div class="row">
+                            <div class="col s12 m7">
+                                <div class="card #0097a7 cyan darken-2">
+                                    <div class="card-image">
+                                        <img className={styles.mdlink} src={mdlink} alt=""></img>
+                                        <span class="card-title"></span>
+                                        <div class="card-content">
+                                            <p>MdLinks:  Libreria realizada con Node.js/ Markdow-it/ Fetch /JSDom</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="https://www.npmjs.com/package/md-links-solex">md-links-solex</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.box3}>
+                    <div class="card small">
+                        <div class="row">
+                            <div class="col s12 m7">
+                                <div class="card #0097a7 cyan darken-2">
+                                    <div class="card-image">
+                                        <img className={styles.credit} src={credit} alt=""></img>
+                                        <span class="card-title"></span>
+
+                                        <div class="card-content">
+                                            <p>Validador de Tarjeta: Javascript /CSS3 /html5 /Github /Balsamiq Mockups</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="https://solmarina.github.io/SCL014-card-validation/">Card Validator</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
 
 
         </div>
