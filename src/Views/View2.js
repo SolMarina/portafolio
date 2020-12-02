@@ -5,7 +5,6 @@ import burguer from "../img/tablet1.png"
 import barky from "../img/mobile.png"
 import comida from '../img/logocolorS.png'
 import mdlink from '../img/mdnode.png'
-import credit from '../img/validacion.png'
 import M from "materialize-css";
 import React, {useEffect } from 'react';
 
@@ -16,7 +15,7 @@ useEffect(() => {
     const instances = M.Slider.init(slider, {
         indicators: true,
         duration: 400,
-        height: 450
+        height: 600
         
 
     });
@@ -35,14 +34,28 @@ useEffect(() => {
                         </div>
                     </li>
                     <li>
-                        <img src="https://lorempixel.com/580/250/nature/1"></img>
+                        <img  className={styles.Imgme} src={mdlink}></img>
+                        <div class="caption center-align">
+                            <h1> holaaaaaaa</h1>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img  className={styles.Imgme} src={comida}></img>
+                        <div class="caption center-align">
+                            <h1> holaaaaaaa</h1>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img className={styles.Imgme} src={burguer}></img>
                         <div class="caption center-align">
                             <h3>This is our big Tagline!</h3>
                             <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                         </div>
                     </li>
                     <li>
-                        <img src="https://lorempixel.com/580/250/nature/1"></img>
+                        <img className={styles.Imgme} src={barky}></img>
                         <div class="caption center-align">
                             <h3>This is our big Tagline!</h3>
                             <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
