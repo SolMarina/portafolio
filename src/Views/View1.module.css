@@ -6,7 +6,7 @@ background-color:#FCF6E4;
 display: flex;
 flex-flow: column;
 width: 100%;
-height: 40%;
+height: 100vh;
 background-color:#FCF6E4;
 padding-left: 10%;
 }

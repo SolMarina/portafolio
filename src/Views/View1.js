@@ -2,8 +2,6 @@ import React from "react";
 import NavBar from "../Componentes/Navbar"
 import styles from "./View1.module.css"
 import AboutMe from "../img/aboutme.jpg"
-import View3 from './View3';
-import View2 from './View2';
 import github from "../img/200 (1)hub.webp"
 import React1 from "../img/200react.webp"
 import Javascript from "../img/200wjava.webp"
@@ -13,7 +11,7 @@ import firebase from "../img/firebase.webp"
 import nodejs from "../img/giphynode.webp"
 const View1 = () => {
     return (
-        <div>
+        <div id="Sobremi">
              <NavBar />
             <div className={styles.boxprincipal} >
                 <div>
@@ -50,8 +48,6 @@ const View1 = () => {
                     </div>
                 </div>
             </div>
-            <View2 />
-            <View3 />
         </div>
     );
 };

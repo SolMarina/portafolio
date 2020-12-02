@@ -9,28 +9,26 @@ import credit from '../img/validacion.png'
 import M from "materialize-css";
 import React, {useEffect } from 'react';
 
-
-
-
-
 const View2 = () => {
 
 useEffect(() => {
     const slider = document.querySelectorAll('.slider');
     const instances = M.Slider.init(slider, {
         indicators: true,
-        duration: 400
+        duration: 400,
+        height: 450
+        
 
     });
 })
     return (
-        <div>
+        <div id="proyectos">
             
-            <div className="slider">
+            <div className="slider" >
                 <ul className="slides">
 
                     <li>
-                        <img src="https://lorempixel.com/580/250/nature/1"></img>
+                        <img  className={styles.Imgme} src={lol}></img>
                         <div class="caption center-align">
                             <h1> holaaaaaaa</h1>
                             <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
