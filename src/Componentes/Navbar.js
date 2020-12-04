@@ -25,10 +25,10 @@ const NavBar = () => {
                     </div>
                 </nav>
                 <ul class="sidenav #fce4ec pink lighten-5" id="mobile-demo">
-                    <li><a href="http://localhost:3000/#Sobremi" ><span class="cyan-text text-darken-3">Sobre mi</span></a></li>
-                    <li><a href="http://localhost:3000/#proyectos"><span class="cyan-text text-darken-3">Proyectos</span></a></li>
+                    <li><a href="https://solmparra.on.fleek.co/#Sobremi" ><span class="cyan-text text-darken-3">Sobre mi</span></a></li>
+                    <li><a href="https://solmparra.on.fleek.co/#proyectos"><span class="cyan-text text-darken-3">Proyectos</span></a></li>
                     <li><a href="https://es.scribd.com/document/486516391/Curriculum-5-1?secret_password=WqIsFflRjS9dHbHFrYLw"><span class="cyan-text text-darken-3">Curriculum</span></a></li>
-                    <li><a href="http://localhost:3000/#contacto"><span class="cyan-text text-darken-3">Contacto</span></a></li>
+                    <li><a href="https://solmparra.on.fleek.co/#Contacto"><span class="cyan-text text-darken-3">Contacto</span></a></li>
                 </ul>
             </div>
         </div>
