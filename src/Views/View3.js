@@ -3,7 +3,7 @@ import styles from "./View3.module.css"
 import contactme from "../img/200.webp"
 const View3 = () => {
     return (
-        <div id='contacto'>
+        <div id='Contacto'>
             <footer class="page-footer #fce4ec pink lighten-5">
                 <div class="container">
                     <div class="column">
