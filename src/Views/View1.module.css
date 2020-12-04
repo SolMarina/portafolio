@@ -28,12 +28,12 @@ width: 50%;
     border-radius: 5%;
 }
 .textimage{
-    width: 50%; 
-    padding-left:20px ;
+width: 50%; 
+padding-left:20px ;
 
 }
 
- .textimage h3 {
+.textimage h3 {
 color: #448E9E;
 
 }
@@ -53,7 +53,65 @@ width: 25%;
         color:#448E9E
 
     }
-
-
-
-   
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.boxprincipal{    
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100vh;
+    background-color:#FCF6E4;
+    padding-right: 8%;
+    
+            }
+            
+            .aboutme{
+                display: flex;
+                flex-flow:column;
+            
+            }
+            
+            .boxImgme{
+            padding-top: 25px;
+            width: 90%;
+            height: 50%;
+            padding-left: 20px;
+             
+            }
+            
+            .Imgme{
+                width: 100%;
+                height: 100%;
+                border-radius: 5%;
+            }
+            .textimage{
+                width: 100%; 
+                padding-left:10px; 
+            
+            }
+            
+             .textimage h3 {
+            color: #448E9E;
+            font-size: 12px; 
+            
+            
+            
+            }
+             .textimage h5 {
+                color:#448E9E ;
+                font-size: 12px; 
+                
+                }
+                .skills{
+            display:flex;
+            align-items: center;
+            flex-flow: row;
+            width: 12%; 
+            
+            
+                }
+                .boxprincipal h4{
+                    color:#448E9E;
+                    font-size: 12px;
+            
+                } 
+            }    

@@ -14,9 +14,6 @@ const View1 = () => {
         <div id="Sobremi">
              <NavBar />
             <div className={styles.boxprincipal} >
-                <div>
-                   
-                </div>
                 <div className={styles.aboutme}>
                     <div className={styles.boxImgme}  >
                         <img className={styles.Imgme} src={AboutMe} alt=""></img>
@@ -33,8 +30,8 @@ const View1 = () => {
                             equipo, de mi desarrollo personal y profesional, apasionada del aprendizaje, autodidacta.
                             En mis ratos libres, me encanta hacer ejercicios, yoga, comer y estar con mis perros Joe y
                             Lupita me declaro 100% doglover.
-                    </h5>
-                    <h4>Habilidades Técnicas.</h4>
+                           </h5>
+                          <h4>Habilidades Técnicas.</h4>
                         <div className={styles.skills}>
                         
                             <img className={styles.Imgme} src={github} alt=""></img>
