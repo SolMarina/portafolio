@@ -1,7 +1,7 @@
 import navegador from "../img/navegador.png"
 import M from "materialize-css";
 import React, { useEffect } from 'react';
-
+import cv from "../img/solmarinacv1.pdf"
 
 const NavBar = () => {
     useEffect(() => {
@@ -19,7 +19,7 @@ const NavBar = () => {
                         <ul class="right hide-on-med-and-down">
                             <li><a href="#Sobremi" ><span class="cyan-text text-darken-3">Sobre mi</span></a></li>
                             <li><a href="#proyectos"><span class="cyan-text text-darken-3">Proyectos</span></a></li>
-                            <li><a href="https://es.scribd.com/document/486516391/Curriculum-5-1?secret_password=WqIsFflRjS9dHbHFrYLw"><span class="cyan-text text-darken-3">Curriculum</span></a></li>
+                            <li><a href = {cv}><span class="cyan-text text-darken-3">Curriculum</span></a></li>
                             <li><a href="#Contacto"><span class="cyan-text text-darken-3">Contacto</span></a></li>
                         </ul>
                     </div>
@@ -27,7 +27,7 @@ const NavBar = () => {
                 <ul class="sidenav #fce4ec pink lighten-5" id="mobile-demo">
                     <li><a href="https://solmparra.on.fleek.co/#Sobremi" ><span class="cyan-text text-darken-3">Sobre mi</span></a></li>
                     <li><a href="https://solmparra.on.fleek.co/#proyectos"><span class="cyan-text text-darken-3">Proyectos</span></a></li>
-                    <li><a href="https://es.scribd.com/document/486516391/Curriculum-5-1?secret_password=WqIsFflRjS9dHbHFrYLw"><span class="cyan-text text-darken-3">Curriculum</span></a></li>
+                    <li><a href= {cv}><span class="cyan-text text-darken-3">Curriculum</span></a></li>
                     <li><a href="https://solmparra.on.fleek.co/#Contacto"><span class="cyan-text text-darken-3">Contacto</span></a></li>
                 </ul>
             </div>
