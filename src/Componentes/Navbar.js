@@ -3,6 +3,7 @@ import M from "materialize-css";
 import React, { useEffect } from 'react';
 import cv from "../img/solmarinacv1.pdf"
 
+
 const NavBar = () => {
     useEffect(() => {
         const sidenav = document.querySelectorAll('.sidenav');
