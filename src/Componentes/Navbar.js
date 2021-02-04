@@ -27,10 +27,10 @@ const NavBar = () => {
                 </nav>
                 <ul class="sidenav #fce4ec pink lighten-5" id="mobile-demo">
 
-                    <li><a href="https://solmparra17.on.fleek.co/#Sobremi" ><span class="cyan-text text-darken-3">Sobre mi</span></a></li>
-                    <li><a href="https://solmparra17.on.fleek.co/#proyectos"><span class="cyan-text text-darken-3">Proyectos</span></a></li>
+                    <li><a href="https://solmportafolio.web.app/#Sobremi" ><span class="cyan-text text-darken-3">Sobre mi</span></a></li>
+                    <li><a href="https://solmportafolio.web.app/#proyectos"><span class="cyan-text text-darken-3">Proyectos</span></a></li>
                     <li><a href= {cv}><span class="cyan-text text-darken-3">Curriculum</span></a></li>
-                    <li><a href="https://solmparra17.on.fleek.co/#Contacto"><span class="cyan-text text-darken-3">Contacto</span></a></li>
+                    <li><a href="https://solmportafolio.web.app/#Contacto"><span class="cyan-text text-darken-3">Contacto</span></a></li>
 
                 </ul>
             </div>
