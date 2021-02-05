@@ -7,7 +7,7 @@ import cv from "../img/solmarinacv1.pdf"
 const NavBar = () => {
     useEffect(() => {
         const sidenav = document.querySelectorAll('.sidenav');
-        const instances = M.Sidenav.init(sidenav)
+        M.Sidenav.init(sidenav)
 
     });
     return (
