@@ -15,8 +15,8 @@ const NavBar = () => {
             <div class="navbar-fixed">
                 <nav class="#fce4ec pink lighten-5">
                     <div class="nav-wrapper">
-                        <a href="#" class="brand-logo"><img src={navegador} alt=""></img></a>
-                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        <div class="brand-logo"><img src={navegador} alt=""></img> </div>
+                        <div data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></div>
                         <ul class="right hide-on-med-and-down">
                             <li><a href="#Sobremi" ><span class="cyan-text text-darken-3">Sobre mi</span></a></li>
                             <li><a href="#proyectos"><span class="cyan-text text-darken-3">Proyectos</span></a></li>
