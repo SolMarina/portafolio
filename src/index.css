@@ -5,11 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:red;
+  background-color:#ffe0db;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-wrapper{
+background-color:#ec4f43;
+
+
+}
+
+
+.card-content{
+  background-color:#ec4f43  ;
+}
+
+#mobile-demo{
+  
+  background-color:#ec4f43;
+}
+
+
+
+
+
 

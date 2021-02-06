@@ -1,16 +1,18 @@
 import React from "react";
 import styles from "./View3.module.css"
-import contactme from "../img/200.webp"
+import contactme from "../img/200.gif"
 const View3 = () => {
     return (
         <div id='Contacto'>
-            <footer class="page-footer #fce4ec pink lighten-5">
+            <footer className= {styles.pagefooter}>
                 <div class="container">
                     <div class="column">
                         <div class="col l6 s12">
-                            <h4 class="cyan-text text-darken-3">Contáctame</h4>
+                           <div className={styles.pc}>
+                            <img className={styles.pccontac} src={contactme} alt=""></img>
+                            </div>
+                            <h4>Contáctame</h4>
 
-                            <img className={styles.Imgme} src={contactme} alt=""></img>
                         </div>
                         <div>
                             <div class="col l4 offset-l2 s12">
@@ -65,7 +67,7 @@ const View3 = () => {
                 </div>
                 <div class="footer-copyright">
                     <div class="container">
-                        2020 Sol Marina Parra
+                       
             </div>
                 </div>
             </footer>

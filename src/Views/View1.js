@@ -9,6 +9,7 @@ import html from "../img/200wjs.webp"
 import css3 from "../img/200wss.webp"
 import firebase from "../img/firebase.webp"
 import nodejs from "../img/giphynode.webp"
+
 const View1 = () => {
     return (
         <div id="Sobremi">
@@ -20,7 +21,7 @@ const View1 = () => {
                     </div>
                     <div className={styles.textimage}>
                         <div>
-                            <h3>Hola, Soy Sol Marina Parra.</h3>
+                            <h3>Hola, soy Sol Marina Parra.</h3>
                         </div>
                         <h5>
                             Amante de la creatividad y de la tecnología, responsable y resolutiva a
@@ -44,6 +45,7 @@ const View1 = () => {
                         </div>
                     </div>
                 </div>
+               
             </div>
         </div>
     );

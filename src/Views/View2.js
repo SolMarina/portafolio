@@ -5,12 +5,15 @@ import mdlink from '../img/mdnode.png'
 import lovers from '../img/cartadelcampeon.png'
 import mach from '../img/mach.png'
 import styles from "./View2.module.css"
-
+import codew from "../img/200w.webp"
 const View2 = () => {
     return (
-        <div id="proyectos">
-            <div>
-                <h1>Proyectos</h1>
+        <div id="proyectos" className={styles.boxFirst} >
+            <div className={styles.code} >
+                <h2>Proyectos</h2>
+                <div className={styles.codemu}>
+                <img className={styles.codewo} src={codew} alt=""></img>
+                </div>
             </div>
 
             <div className={styles.box1}>
@@ -20,14 +23,14 @@ const View2 = () => {
                             <img className="activator" src={burguer} alt=""></img></div>
 
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Burger Queen<i class="material-icons right">more_vert</i></span>
+                            <span class="card-title activator white-text">Burger Queen<i class="material-icons right">more_vert</i></span>
                             <div className={styles.links}>
-                                <p><a href="https://burgersong.on.fleek.co/">Demo</a></p>
-                                <p><a href="https://github.com/SolMarina/burger-queen">Github</a></p>
+                                <p ><a class="white-text" href="https://burgersong.on.fleek.co/">Demo</a></p>
+                                <p><a class="white-text" href="https://github.com/SolMarina/burger-queen">Github</a></p>
                             </div>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Burger Queen<i class="material-icons right">close</i></span>
+                            <span class="card-title white-text">Burger Queen<i class="material-icons right">close</i></span>
                             <p>Single-page Application (SPA) React.js/React hooks/ Firebase / CSS3 / Figma / Github. Es una app desarrollada y diseñada para tablets , un sistema que ayude a tomar los pedidos de clientes de un restaurante.
 </p>
                         </div>
@@ -40,10 +43,10 @@ const View2 = () => {
                             <img className="activator" src={barky} alt=""></img></div>
 
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Barkyfi<i class="material-icons right">more_vert</i></span>
+                            <span class="card-title activator white-text">Red Social<i class="material-icons right">more_vert</i></span>
                             <div className={styles.links}>
-                                <p><a href="https://mcmacarena.github.io/SCL014-social-network/">Demo</a></p>
-                                <p><a href="https://github.com/SolMarina/SCL014-social-network">Github</a></p>
+                                <p><a class="white-text" href="https://mcmacarena.github.io/SCL014-social-network/">Demo</a></p>
+                                <p><a class="white-text" href="https://github.com/SolMarina/SCL014-social-network">Github</a></p>
                             </div>
                         </div>
                         <div class="card-reveal">
@@ -60,10 +63,10 @@ const View2 = () => {
                             <img className="activator" src={comida} alt=""></img></div>
 
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Comida Para Todos<i class="material-icons right">more_vert</i></span>
+                            <span class="card-title activator white-text">Comida Para Todos<i class="material-icons right">more_vert</i></span>
                             <div className={styles.links}>
-                                <p><a href="https://comidaparatodos.on.fleek.co/">Demo</a></p>
-                                <p><a href="https://github.com/SolMarina/ComidaParaTodos">Github</a></p>
+                                <p><a class="white-text" href="https://comidaparatodos.on.fleek.co/">Demo</a></p>
+                                <p><a class="white-text" href="https://github.com/SolMarina/ComidaParaTodos">Github</a></p>
                             </div>
                         </div>
                         <div class="card-reveal">
@@ -81,10 +84,10 @@ Con la colaboración entre estudiantes de Ux y Front-End, mejoramos el design de
                             <img className="activator" src={mdlink} alt=""></img></div>
 
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">MdLinks<i class="material-icons right">more_vert</i></span>
+                            <span class="card-title activator white-text">MdLinks<i class="material-icons right">more_vert</i></span>
                             <div className={styles.links}>
-                                <p><a href="https://www.npmjs.com/package/md-links-solex">Demo</a></p>
-                                <p><a href="https://github.com/SolMarina/SCL014-md-links">Github</a></p>
+                                <p><a class="white-text" href="https://www.npmjs.com/package/md-links-solex">Demo</a></p>
+                                <p><a class="white-text"  href="https://github.com/SolMarina/SCL014-md-links">Github</a></p>
                             </div>
                         </div>
                         <div class="card-reveal">
@@ -102,10 +105,10 @@ Con la colaboración entre estudiantes de Ux y Front-End, mejoramos el design de
                             <img className="activator" src={lovers} alt=""></img></div>
 
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Data lovers<i class="material-icons right">more_vert</i></span>
+                            <span class="card-title activator white-text">Data lovers<i class="material-icons right">more_vert</i></span>
                             <div className={styles.links}>
-                                <p><a href="https://solmarina.github.io/SCL014-data-lovers/">Demo</a></p>
-                                <p><a href="https://github.com/SolMarina/SCL014-data-lovers">Github</a></p>
+                                <p><a class="white-text" href="https://solmarina.github.io/SCL014-data-lovers/">Demo</a></p>
+                                <p><a class="white-text" href="https://github.com/SolMarina/SCL014-data-lovers">Github</a></p>
                             </div>
                         </div>
                         <div class="card-reveal">
@@ -122,10 +125,10 @@ Con la colaboración entre estudiantes de Ux y Front-End, mejoramos el design de
                             <img className="activator" src={mach} alt=""></img></div>
 
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">MACH<i class="material-icons right">more_vert</i></span>
+                            <span class="card-title activator white-text">MACH<i class="material-icons right">more_vert</i></span>
                             <div className={styles.links}>
-                                <p><a href="https://mach-app-9892d.firebaseapp.com/">Demo</a></p>
-                                <p><a href="https://github.com/SolMarina/SCL014-Hackathon">Github</a></p>
+                                <p><a  class="white-text" href="https://mach-app-9892d.firebaseapp.com/">Demo</a></p>
+                                <p><a class="white-text" href="https://github.com/SolMarina/SCL014-Hackathon">Github</a></p>
                             </div>
 
                         </div>
