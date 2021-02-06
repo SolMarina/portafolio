@@ -1,13 +1,13 @@
-.body{
+/* .body{
 background-color:#FCF6E4;
 
-}
+} */
 .boxprincipal{
 display: flex;
 flex-flow: column;
 width: 100%;
 height: 100vh;
-background-color:#FCF6E4;
+background-color:#ffbdb3;
 padding-left: 10%;
 }
 
@@ -34,11 +34,11 @@ padding-left:20px ;
 }
 
 .textimage h3 {
-color: #448E9E;
+color: white;
 
 }
  .textimage h5 {
-    color:#448E9E ;
+    color:white;
     
     }
     .skills{
@@ -50,16 +50,20 @@ width: 25%;
 
     }
     .boxprincipal h4{
-        color:#448E9E
+        color:white
 
     }
+    
+
+
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 .boxprincipal{    
     display: flex;
     flex-flow: column;
     width: 100%;
     height: 100vh;
-    background-color:#FCF6E4;
+    background-color:#ffbdb3;
     padding-right:2%;
     
             }
@@ -90,14 +94,14 @@ width: 25%;
             }
             
              .textimage h3 {
-                color:#448E9E ;
+                color:white ;
             font-size: 12px; 
             
             
             
             }
              .textimage h5 {
-                color:#448E9E ;
+                color:white;
                 font-size: 12px; 
                 
                 }
@@ -110,7 +114,7 @@ width: 25%;
             
                 }
                 .boxprincipal h4{
-                    color:#448E9E;
+                    color:white;
                     font-size: 12px;
             
                 } 
