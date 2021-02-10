@@ -12,13 +12,13 @@ const View2 = () => {
             <div className={styles.code} >
                 <h2>Proyectos</h2>
                 <div className={styles.codemu}>
-                <img className={styles.codewo} src={codew} alt=""></img>
+                    <img className={styles.codewo} src={codew} alt=""></img>
                 </div>
             </div>
 
             <div className={styles.box1}>
                 <div className={styles.box11}>
-                    <div class="card">
+                    <div class="card z-depth-5 hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img className="activator" src={burguer} alt=""></img></div>
 
@@ -38,7 +38,7 @@ const View2 = () => {
                 </div>
 
                 <div className={styles.box11}>
-                    <div class="card">
+                    <div class="card z-depth-5 hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img className="activator" src={barky} alt=""></img></div>
 
@@ -58,7 +58,7 @@ const View2 = () => {
             </div>
             <div className={styles.box1}>
                 <div className={styles.box11}>
-                    <div class="card">
+                    <div class="card z-depth-5 hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img className="activator" src={comida} alt=""></img></div>
 
@@ -79,7 +79,7 @@ Con la colaboración entre estudiantes de Ux y Front-End, mejoramos el design de
                 </div>
 
                 <div className={styles.box11}>
-                    <div class="card">
+                    <div class="card z-depth-5 hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img className="activator" src={mdlink} alt=""></img></div>
 
@@ -87,7 +87,7 @@ Con la colaboración entre estudiantes de Ux y Front-End, mejoramos el design de
                             <span class="card-title activator white-text">MdLinks<i class="material-icons right">more_vert</i></span>
                             <div className={styles.links}>
                                 <p><a class="white-text" href="https://www.npmjs.com/package/md-links-solex">Demo</a></p>
-                                <p><a class="white-text"  href="https://github.com/SolMarina/SCL014-md-links">Github</a></p>
+                                <p><a class="white-text" href="https://github.com/SolMarina/SCL014-md-links">Github</a></p>
                             </div>
                         </div>
                         <div class="card-reveal">
@@ -98,9 +98,10 @@ Con la colaboración entre estudiantes de Ux y Front-End, mejoramos el design de
 
                 </div>
             </div>
+
             <div className={styles.box1}>
                 <div className={styles.box11}>
-                    <div class="card">
+                    <div class="card z-depth-5 hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img className="activator" src={lovers} alt=""></img></div>
 
@@ -120,14 +121,15 @@ Con la colaboración entre estudiantes de Ux y Front-End, mejoramos el design de
                 </div>
 
                 <div className={styles.box11}>
-                    <div class="card">
+
+                    <div class="card z-depth-5 hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img className="activator" src={mach} alt=""></img></div>
 
                         <div class="card-content">
                             <span class="card-title activator white-text">MACH<i class="material-icons right">more_vert</i></span>
                             <div className={styles.links}>
-                                <p><a  class="white-text" href="https://mach-app-9892d.firebaseapp.com/">Demo</a></p>
+                                <p><a class="white-text" href="https://mach-app-9892d.firebaseapp.com/">Demo</a></p>
                                 <p><a class="white-text" href="https://github.com/SolMarina/SCL014-Hackathon">Github</a></p>
                             </div>
 
@@ -141,6 +143,7 @@ Bootstrap </p>
                 </div>
             </div>
         </div>
+
 
     );
 };
