@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../Componentes/Navbar"
 import styles from "./View1.module.css"
-import AboutMe from "../img/aboutme.jpg"
+import AboutMe from "../img/aboutme.png"
 import github from "../img/200 (1)hub.webp"
 import React1 from "../img/200react.webp"
 import Javascript from "../img/200wjava.webp"
