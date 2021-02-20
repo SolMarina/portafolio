@@ -24,14 +24,14 @@ const Carrusel = () => {
 
     })
     return (
-         <div className={styles.boxFirst}>
+         <div id='proyectos'>
 
-            {/* <div className={styles.code} >
+            <div className={styles.code} >
                <h2>Proyectos</h2>
                <div className={styles.codemu}>
                   <img className={styles.codewo} src={codew} alt=""></img>
               </div>
-          </div> */}
+          </div>
 
             <div className="carousel carousel-slider">
                 <div className="carousel-item center" href="#one!">
