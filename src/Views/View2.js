@@ -24,17 +24,17 @@ const Carrusel = () => {
 
     })
     return (
-        <div>
+         <div className={styles.boxFirst}>
 
-            <div className={styles.code} >
-                <h2>Proyectos</h2>
-                <div className={styles.codemu}>
-                    <img className={styles.codewo} src={codew} alt=""></img>
-                </div>
-            </div>
+            {/* <div className={styles.code} >
+               <h2>Proyectos</h2>
+               <div className={styles.codemu}>
+                  <img className={styles.codewo} src={codew} alt=""></img>
+              </div>
+          </div> */}
 
-            <div class="carousel carousel-slider center" id='carousel' >
-                <div class="carousel-item center" href="#one!">
+            <div className="carousel carousel-slider">
+                <div className="carousel-item center" href="#one!">
                     <div className={styles.box1}>
                         <div className={styles.box11}>
                             <div class="card z-depth-5 hoverable">

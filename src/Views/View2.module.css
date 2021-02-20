@@ -1,6 +1,8 @@
 .boxFirst{
+    display: flex;
+    flex-flow: column;
     background-color:#ffe0db;
-   
+ 
 }
 
 .box1{
@@ -10,6 +12,7 @@ padding: 20px;
 background-color:#ffe0db;
 justify-content: space-around;
 align-content: center;
+
 }
 
 

@@ -28,16 +28,15 @@ background-color:#ec4f43;
   
   background-color:#ec4f43;
 }
-
-#carousel{
-  height: 650px;
-  background-color:#ffe0db;
+.carousel.carousel-slider{
+  height: 650px!important;
 }
+
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
-  #carousel{
-    height: 350px;
-    background-color:#ffe0db;
-  }
+  .carousel.carousel-slider{
+    height: 350px!important;
+    
 }
 
-
+}
