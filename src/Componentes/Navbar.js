@@ -8,9 +8,12 @@ import styles from './navbar.module.css'
 const NavBar = () => {
     useEffect(() => {
         const sidenav = document.querySelectorAll('.sidenav');
-        M.Sidenav.init(sidenav)
+        
+         const instances = M.Sidenav.init(sidenav)
+         console.log(instances);
 
     });
+
     return (
         <div>
             <div class="navbar-fixed">
@@ -36,6 +39,7 @@ const NavBar = () => {
                     <li><a href="https://solmportafolio.web.app/#Contacto"><span class="white-text">Contacto</span></a></li>
 
                 </ul>
+                
             </div>
         </div>
 
