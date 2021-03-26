@@ -50,8 +50,10 @@ const Carrusel = () => {
                                 </div>
                                 <div class="card-reveal">
                                     <span class="card-title white-text">Burger Queen<i class="material-icons right">close</i></span>
-                                    <p>Single-page Application (SPA) React.js/React hooks/ Firebase / CSS3 / Figma / Github. Es una app desarrollada y diseñada para tablets , un sistema que ayude a tomar los pedidos de clientes de un restaurante.
- </p></div>
+                                    <p>Single-page Application/ React / Firebase / CSS3 / Figma / Github. Interfaz en la que se puede tomar pedidos
+usando una tablet, y enviarlos a la cocina para que se preparen ordenada y eficientemente,la interfaz muestra dos menús, cada
+uno con todos sus productos. El usuario debe poder ir eligiendo qué productos agregar y la interfaz debe ir mostrando el resumen
+del pedido con el costo total.</p></div>
                             </div>
                         </div>
                     </div>
@@ -71,7 +73,10 @@ const Carrusel = () => {
                                     </div>
                                 </div>                       <div class="card-reveal">
                                     <span class="card-title grey-text text-darken-4">Barkify<i class="material-icons right">close</i></span>
-                                    <p>Single-page Application (SPA) Javascript / Firebase / CSS3/ Figma / Github. Red Social creada con el propósito de generar interacción y sentido de manada entre perros que se encuentren geográficamente cerca y presenten ciertas afinidades.</p>
+                                    <p>Single-page Application/ Javascript / Firebase / CSS3/ Figma / Github. Red Social creada con el propósito de
+generar interacción y sentido de manada entre perros que se encuentren geográficamente cerca y que presentan ciertas
+afinidades,permite a cualquier usuario crear una cuenta de acceso y loguearse con ella; crear, editar, borrar y "likear"
+publicaciones.</p>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +122,7 @@ const Carrusel = () => {
                                 </div>
                                 <div class="card-reveal">
                                     <span class="card-title grey-text text-darken-4">MdLinks<i class="material-icons right">close</i></span>
-                                    <p>Libreria para analizar archivos en formato Markdown, ayuda a verificar los links que contengan y reportar algunas estadísticas.</p>
+                                    <p>Libreria realizada con Node.js para analizar archivos en formato Markdown, ayuda a verificar los links que contengan y reportar algunas estadísticas.</p>
                                 </div>
                             </div>
                         </div>
@@ -140,7 +145,8 @@ const Carrusel = () => {
                                 </div>
                                 <div class="card-reveal">
                                     <span class="card-title grey-text text-darken-4">Data Lovers<i class="material-icons right">close</i></span>
-                                    <p>Javascript /CSS3/ Figma. Página web para visualizar un conjunto (set) de datos que se adecúa a las necesidades de los jugadores de League of Legend .</p>
+                                    <p>Javascript / API / CSS3/ Figma / Github. Página web para visualizar filtrar, y ordenar un conjunto (set) de datos que
+se adecúa a las necesidades de los jugadores de League of Legend.</p>
                                 </div>
                             </div>
                         </div>
@@ -164,8 +170,9 @@ const Carrusel = () => {
                                 </div>
                                 <div class="card-reveal">
                                     <span class="card-title grey-text text-darken-4">Sección de Beneficios<i class="material-icons right">close</i></span>
-                                    <p>Sección de Beneficios, realizada en 4 días de Hackathon para MACH, es una aplicaciòn realizada para mobile, utilizando react.js y
- Bootstrap </p>
+                                    <p>Mach: React.js/ Bootstrap / CSS3/ Figma. Sección de Beneficios, realizada en 4 días de Hackathon para la tarjeta MACH, es
+una aplicaciòn realizada para mobile que mediante la herramienta de gamificación, se busca incrementar el apego del consumidor
+a la marca. </p>
                                 </div>
                             </div>
                         </div>
