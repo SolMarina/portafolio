@@ -117,7 +117,7 @@ const Carrusel = () => {
                                 </div>
                                 <div class="card-reveal">
                                     <span class="card-title grey-text text-darken-4">MdLinks<i class="material-icons right">close</i></span>
-                                    <p>r y analizar archivos en formato Markdown, para verificar los links que contengan y reportar algunas estadísticas.</p>
+                                    <p>Libreria para analizar archivos en formato Markdown, ayuda a verificar los links que contengan y reportar algunas estadísticas.</p>
                                 </div>
                             </div>
                         </div>
